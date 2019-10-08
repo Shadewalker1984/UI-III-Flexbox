@@ -64,3 +64,135 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* Your code starts here! */
+
+ .everything { 
+	 margin: 1%;
+	/* margin-top: 50px;
+	margin-right: 515px;
+	margin-left: 515px;
+	margin-bottom: 515px; */
+ }
+
+.containerTop {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 100%;
+	align-content: center;
+	
+}
+
+ nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 98%;
+	margin: 20px, 20px;
+ }  
+
+nav a {
+	/* display: flex;
+	flex-direction: space-between; */
+	color: grey;
+}
+a:hover {
+	color: blue;
+}
+
+
+.containerMid {
+	display: flex;
+	width: 98%;
+	flex-direction: row;
+	margin: 1%;
+	justify-content: center;
+
+
+}
+ .text {
+	display: flex;
+	width: 48%;
+	margin: 1%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+} 
+h1 {
+	font-size: 50px;
+	margin: 5%;
+}
+.upperImage {
+	margin-top: 100px;
+	
+}
+
+.largeBold {
+	margin-top: 100px;
+	text-align: center;
+}
+.squareBoxed {
+	border: 2px solid black;
+	display: flex;
+	flex-direction: row;;
+	justify-content: center;
+	width: 30%;
+	text-align: center;
+}
+
+
+.upperBodyText {
+	/* display: inline-block;
+	border-top: 1px solid black;
+	 border: 1px solid blue; 
+	width: 100%; */
+}
+.upperBodyLeft {
+	/* display: inline-block;
+	border: 1px solid green;
+	width: 49%; */
+
+}
+.upperBodyRight {
+	/* display: inline-block;
+	border: 1px solid blueviolet;
+	width: 49%; */
+}
+
+.midImage {
+	/* text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	 */
+}
+
+.lowerBody {
+	/* width: 100%;
+	/* border: 1px dotted blue; */
+	/* display: inline-block;
+	border-bottom: 1px solid black; */ 
+}
+.lowerBodyLeft {
+	/* width: 30%;
+	display: inline-block;
+	margin: 1%; */
+}
+.lowerBodyCenter {
+	/* width: 30%;
+	display: inline-block;
+	margin: 1%; */
+}
+.lowerBodyRight {
+	/* width: 30%;
+	display: inline-block;
+	margin: 1%;
+} */
+footer {
+	/* text-align: left;
+	margin-top: 10px; */
+}
+.copyright {
+	/* margin: 10px; */
+}
