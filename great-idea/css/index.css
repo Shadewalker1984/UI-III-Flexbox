@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
  .everything { 
-	 margin: 5%;
+	 max-width: 960px
 
  }
 
@@ -181,10 +181,6 @@ footer {
 .container {
 	max-width: 1080px;
 	margin-left: 30px;
-	/* margin-top: 5%;
-	margin-left: 25%;
-	margin-right: 25%;
-	margin-bottom: 5%; */
 }
 
 nav {
@@ -310,4 +306,68 @@ nav {
 .list {
 	margin-top: 20px;
 	margin-left: 20px;
+}
+.upperUpperBox {
+	text-align: center;
+	margin: 20px;
+	width: 100%;
+}
+.contact h2 {
+	font-size: 20px;
+}
+.upperBox {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	width: 100%;
+}
+
+.leftBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 400px;
+	margin: 50px;
+	border: 2px solid black;
+	background: #f3f3f3;
+}
+.leftBox h2 {
+	margin-bottom: 50px;
+}
+.leftBox a {
+	margin: 20px;
+}
+
+.rightBox {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 400px;
+	height: 400px;
+	margin: 50px;
+	border: 2px solid black;
+	background: #f3f3f3;
+}
+.rightBox h2 {
+	margin-bottom: 50px;
+}
+.rightBox a {
+	margin: 20px;
+}
+
+.midContact {
+	display: flex;
+	margin: 20px;
+	padding: 20px;
+}
+
+.contact {
+	font-size: 25px;
+}
+.midContact h6 {
+	font-size: 15px;
 }
