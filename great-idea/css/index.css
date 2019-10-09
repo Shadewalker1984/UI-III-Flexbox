@@ -84,9 +84,10 @@ h1, h2, h3, h4, h5 {
  nav {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-around;
+	align-items: center;
 	width: 98%;
-	margin: 20px, 20px;
+	margin: 30px, 30px;
 }  
 
 nav a {
@@ -177,13 +178,18 @@ footer {
 
 /* Underneath is the code for the Services.html page only */
 
-.entirePage {
+.container {
 	max-width: 1080px;
 	margin-left: 30px;
 	/* margin-top: 5%;
 	margin-left: 25%;
 	margin-right: 25%;
 	margin-bottom: 5%; */
+}
+
+nav {
+	display: flex;
+
 }
 
 .topImage {
